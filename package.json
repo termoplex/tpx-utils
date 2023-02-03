@@ -5,5 +5,25 @@
   },
   "scripts": {
     "test": "mocha index.test.js"
-  }
+  },
+  "name": "tpx-utils",
+  "version": "0.0.0",
+  "description": "useful functions for objects",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/termoplex/tpx-utils.git"
+  },
+  "keywords": [
+    "termoplex",
+    "tpx-utils",
+    "utils"
+  ],
+  "author": "Gustavo & Vinicius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/termoplex/tpx-utils/issues"
+  },
+  "homepage": "https://github.com/termoplex/tpx-utils#readme"
 }
