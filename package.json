@@ -1,29 +1,32 @@
 {
-  "dependencies": {
-    "chai": "^4.3.7",
-    "mocha": "^10.2.0"
+  "name": "tpx-utils",
+  "version": "0.0.0",
+  "description": "Useful functions for objects",
+  "homepage": "https://github.com/termoplex/tpx-utils#readme",
+  "bugs": {
+    "url": "https://github.com/termoplex/tpx-utils/issues"
   },
+  "main": "index.js",
   "scripts": {
     "test": "mocha index.test.js"
   },
-  "name": "tpx-utils",
-  "version": "0.0.0",
-  "description": "useful functions for objects",
-  "main": "index.js",
-  "devDependencies": {},
+  "keywords": [
+    "object",
+    "tpx-utils",
+    "utils"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/termoplex/tpx-utils.git"
   },
-  "keywords": [
-    "termoplex",
-    "tpx-utils",
-    "utils"
+  "author": "Termoplex <termoplexdesenvolvimento@gmail.com> (https://github.com/termoplex)",
+  "contributors": [
+    "Gustavo Queiroz Silveira <termoplexdesenvolvimento@gmail.com> (https://github.com/gustavo-qs)",
+    "Vinicius Ortiz <vinicius.oaw@gmail.com> (https://github.com/ortizvinicius)"
   ],
-  "author": "Gustavo & Vinicius",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/termoplex/tpx-utils/issues"
-  },
-  "homepage": "https://github.com/termoplex/tpx-utils#readme"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
 }

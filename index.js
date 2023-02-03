@@ -1,8 +1,13 @@
+'use strict';
+
+//Module Public API
 module.exports = { 
   deepObjSet,
   deepObjFind,
   deepObjCastingSet
 };
+
+/************************ */
 
 /**
  * Compare a object to a model, uses the model property if it doesn´t exists in obj
